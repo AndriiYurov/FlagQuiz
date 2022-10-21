@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.AnswersContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Answers {
+    
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    background-color: rgba(105, 117, 125, 0.795);
+    color: rgba(14, 15, 14, 0.55);
 }
 
-.App-link {
-  color: #61dafb;
+.Answers:hover {
+    background-color: rgba(227, 201, 73, 0.427);
+    border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Green {
+    background-color: rgba(44, 163, 48, 0.76);
+}
+
+.Red {
+    background-color: rgba(193, 5, 5, 0.628);
+}
+
+.Score {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.ScoreText {
+    font-size: 50px;
 }
